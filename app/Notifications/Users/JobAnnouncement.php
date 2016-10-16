@@ -44,11 +44,10 @@ class JobAnnouncement extends Notification implements ShouldQueue
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('PHPMap Jobs just launched!')
+                    ->subject('InvoicePlane Hosting just launched!')
                     ->greeting('Hello, '.$this->user->username)
-                    ->line('PHPMap Jobs has just launched and we´re giving you 30% off!')
-                    ->line('If you have to offer jobs, get on board.')
-                    ->action('Post your job now!', 'https://jobs.phpmap.co/register?coupon=phpmapfriends')
+                    ->line('InvoicePlane Hosting has just launched and we´re giving you 25% off!')
+                    ->action('Get your invoices now!', 'https://hosting.invoiceplane.com/')
                     ->line('Thank you for using PHPMap!');
     }
 
