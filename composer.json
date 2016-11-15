@@ -21,7 +21,8 @@
         "intervention/image": "^2.3",
         "get-stream/stream-laravel": "^2.2",
         "aws/aws-sdk-php": "^3.19",
-        "mpociot/laravel-firebase-sync": "^1.0"
+        "mpociot/laravel-firebase-sync": "^1.0",
+        "devdojo/chatter": "^0.1.22"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
